@@ -22,12 +22,12 @@ End if
 C_OBJECT:C1216($math)
 $math:=Math ()
 
-$test:=New AJ_Tools_UT_describe ("Degree";Current method name:C684;"Test Math properties")
+$test:=New AJ_Tools_UT_describe ("Math.Degree";Current method name:C684;"Test Math properties")
 
 
-$test.given:="no argument"
-$test.should:="return "+String:C10(Degree:K30:2)
-$test.expected:=Degree:K30:2
+$test.given:="Math.Degree"
+$test.should:="return 0.01745329251994"
+$test.expected:=0.01745329251994
 $test.actual:=$math.Degree
 $test.assert()
 

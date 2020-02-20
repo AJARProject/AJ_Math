@@ -23,12 +23,12 @@ End if
 C_OBJECT:C1216($math)
 $math:=Math ()
 
-$test:=New AJ_Tools_UT_describe ("LOG2E";Current method name:C684;"Test Math properties")
+$test:=New AJ_Tools_UT_describe ("Math.LOG2E";Current method name:C684;"Test Math properties")
 
 
-$test.given:="no argument"
+$test.given:="Math.LOG2E"
 $test.should:="return 1.4426950408889634"
-$test.expected:=1.442695040889  // expected output: 1.4426950408889634
+$test.expected:=1.442695040889
 $test.actual:=$math.LOG2E
 $test.assert()
 

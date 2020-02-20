@@ -23,12 +23,12 @@ End if
 C_OBJECT:C1216($math)
 $math:=Math ()
 
-$test:=New AJ_Tools_UT_describe ("PI";Current method name:C684;"Test Math properties")
+$test:=New AJ_Tools_UT_describe ("Math.PI";Current method name:C684;"Test Math properties")
 
 
-$test.given:="no argument"
-$test.should:="return "+String:C10(Pi:K30:1)
-$test.expected:=Pi:K30:1
+$test.given:="Math.PI"
+$test.should:="return 3.14159265359"
+$test.expected:=3.14159265359
 $test.actual:=$math.PI
 $test.assert()
 

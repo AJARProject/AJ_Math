@@ -23,12 +23,12 @@ End if
 C_OBJECT:C1216($math)
 $math:=Math ()
 
-$test:=New AJ_Tools_UT_describe ("E";Current method name:C684;"Test Math properties")
+$test:=New AJ_Tools_UT_describe ("Math.E";Current method name:C684;"Test Math properties")
 
 
-$test.given:="no argument"
-$test.should:="return "+String:C10(Exp:C21(1))
-$test.expected:=Exp:C21(1)
+$test.given:="Math.E"
+$test.should:="return 2.718281828459"
+$test.expected:=2.718281828459
 $test.actual:=$math.E
 $test.assert()
 

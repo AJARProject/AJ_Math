@@ -13,8 +13,7 @@ If (False:C215)
 	  // Method: _Math_Properties
 	  // Description
 	  // Unit test 
-	  // Math.E property represents the base of natural
-	  // logarithms, e, approximately 2.718281828459
+	  // Math.Radian approximately 57.29577951308
 	  //
 	  // No Parameters
 	  // ----------------------------------------------------
@@ -23,12 +22,12 @@ End if
 C_OBJECT:C1216($math)
 $math:=Math ()
 
-$test:=New AJ_Tools_UT_describe ("Radian";Current method name:C684;"Test Math properties")
+$test:=New AJ_Tools_UT_describe ("Math.Radian";Current method name:C684;"Test Math properties")
 
 
 $test.given:="no argument"
-$test.should:="return "+String:C10(Radian:K30:3)
-$test.expected:=Radian:K30:3
+$test.should:="return 57.29577951308"
+$test.expected:=57.29577951308
 $test.actual:=$math.Radian
 $test.assert()
 
