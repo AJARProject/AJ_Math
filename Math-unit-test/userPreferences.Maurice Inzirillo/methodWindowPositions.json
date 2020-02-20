@@ -1,0 +1,26 @@
+﻿{
+	"Sources/Methods/Method1.4dm": {
+		"left": 678,
+		"top": 562,
+		"width": 932,
+		"height": 652
+	},
+	"Sources/Methods/Launch_UT.4dm": {
+		"left": 396,
+		"top": 142,
+		"width": 773,
+		"height": 394
+	},
+	"Sources/Methods/_Math_tan.4dm": {
+		"left": 528,
+		"top": 601,
+		"width": 932,
+		"height": 627
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": 701,
+		"top": 862,
+		"width": 932,
+		"height": 552
+	}
+}
