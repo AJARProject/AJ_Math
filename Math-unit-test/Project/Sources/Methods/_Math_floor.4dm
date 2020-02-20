@@ -16,59 +16,59 @@ If (False:C215)
 	  // ----------------------------------------------------
 End if 
 
-C_OBJECT:C1216($o)
+C_OBJECT:C1216($math)
 C_COLLECTION:C1488($col)
 
-$o:=Math ()
+$math:=Math ()
 
 $test:=New AJ_Tools_UT_describe ("floor";Current method name:C684;"Test Math formula")
 
 $test.given:="no argument"
 $test.should:="return 0"
 $test.expected:=0
-$test.actual:=$o.floor()
+$test.actual:=$math.floor()
 $test.assert()
 
 $test.given:="text \"NaN\" as argument"
 $test.should:="return 0"
 $test.expected:=0
-$test.actual:=$o.floor("Nan")
+$test.actual:=$math.floor("Nan")
 $test.assert()
 
 $test.given:="expression addition (3+2.95) as argument"
 $test.should:="return 5"
 $test.expected:=5
-$test.actual:=$o.floor(3+2.95)
+$test.actual:=$math.floor(3+2.95)
 $test.assert()
 
 $test.given:="negative number -5.05 as argument"
 $test.should:="return -6"
 $test.expected:=-6
-$test.actual:=$o.floor(-5.05)
+$test.actual:=$math.floor(-5.05)
 $test.assert()
 
 $test.given:="passing an empty object {} as argument"
 $test.should:="return 0"
 $test.expected:=0
-$test.actual:=$o.floor(New object:C1471())
+$test.actual:=$math.floor(New object:C1471())
 $test.assert()
 
 $test.given:="passing a collection with one element [5.05] as argument"
 $test.should:="return 5"
 $test.expected:=5
-$test.actual:=$o.floor(New collection:C1472(5.05))
+$test.actual:=$math.floor(New collection:C1472(5.05))
 $test.assert()
 
 $test.given:="passing a collection with one element negative [-5.05] as argument"
 $test.should:="return -6"
 $test.expected:=-6
-$test.actual:=$o.floor(New collection:C1472(-5.05))
+$test.actual:=$math.floor(New collection:C1472(-5.05))
 $test.assert()
 
 $test.given:="passing a collection with more than one element [2.05,3.5] as argument"
 $test.should:="return 0"
 $test.expected:=0
-$test.actual:=$o.floor(New collection:C1472(2.05;3.5))
+$test.actual:=$math.floor(New collection:C1472(2.05;3.5))
 $test.assert()
 
 

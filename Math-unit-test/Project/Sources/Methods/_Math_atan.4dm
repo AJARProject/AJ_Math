@@ -20,8 +20,8 @@ If (False:C215)
 	  // ----------------------------------------------------
 End if 
 
-C_OBJECT:C1216($o)
-$o:=Math ()
+C_OBJECT:C1216($math)
+$math:=Math ()
 
 $test:=New AJ_Tools_UT_describe ("atan";Current method name:C684;"Test Math formula")
 
@@ -29,23 +29,23 @@ $test:=New AJ_Tools_UT_describe ("atan";Current method name:C684;"Test Math form
 $test.given:="no argument"
 $test.should:="return 0"
 $test.expected:=0
-$test.actual:=$o.atan()
+$test.actual:=$math.atan()
 $test.assert()
 
 $test.given:="expression atan(8/10) as argument"
 $test.should:="return "+String:C10(Arctan:C20(8/10))
 $test.expected:=Arctan:C20(8/10)
-$test.actual:=$o.atan(8/10)  // expected output: 0.6747409422235527
+$test.actual:=$math.atan(8/10)  // expected output: 0.6747409422235527
 $test.assert()
 
 $test.given:="expression (atan(1)*4) as argument"
-$test.should:="return "+String:C10($o.PI())
-$test.expected:=$o.PI()
-$test.actual:=$o.atan(1)*4  // expected output: 3.14159265359
+$test.should:="return "+String:C10($math.PI)
+$test.expected:=$math.PI
+$test.actual:=$math.atan(1)*4  // expected output: 3.14159265359
 $test.assert()
 
 $test.given:="expression atan(5/3) as argument"
 $test.should:="return "+String:C10(Arctan:C20(5/3))
 $test.expected:=Arctan:C20(5/3)
-$test.actual:=$o.atan(5/3)  // expected output: 1.0303768265243125
+$test.actual:=$math.atan(5/3)  // expected output: 1.0303768265243125
 $test.assert()

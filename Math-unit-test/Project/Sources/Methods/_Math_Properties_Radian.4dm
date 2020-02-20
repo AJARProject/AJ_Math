@@ -20,8 +20,8 @@ If (False:C215)
 	  // ----------------------------------------------------
 End if 
 
-C_OBJECT:C1216($o)
-$o:=Math ()
+C_OBJECT:C1216($math)
+$math:=Math ()
 
 $test:=New AJ_Tools_UT_describe ("Radian";Current method name:C684;"Test Math properties")
 
@@ -29,6 +29,6 @@ $test:=New AJ_Tools_UT_describe ("Radian";Current method name:C684;"Test Math pr
 $test.given:="no argument"
 $test.should:="return "+String:C10(Radian:K30:3)
 $test.expected:=Radian:K30:3
-$test.actual:=$o.Radian()
+$test.actual:=$math.Radian
 $test.assert()
 

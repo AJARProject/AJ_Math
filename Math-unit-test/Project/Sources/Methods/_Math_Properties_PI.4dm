@@ -20,8 +20,8 @@ If (False:C215)
 	  // ----------------------------------------------------
 End if 
 
-C_OBJECT:C1216($o)
-$o:=Math ()
+C_OBJECT:C1216($math)
+$math:=Math ()
 
 $test:=New AJ_Tools_UT_describe ("PI";Current method name:C684;"Test Math properties")
 
@@ -29,6 +29,6 @@ $test:=New AJ_Tools_UT_describe ("PI";Current method name:C684;"Test Math proper
 $test.given:="no argument"
 $test.should:="return "+String:C10(Pi:K30:1)
 $test.expected:=Pi:K30:1
-$test.actual:=$o.PI()
+$test.actual:=$math.PI
 $test.assert()
 

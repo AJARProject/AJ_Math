@@ -20,8 +20,8 @@ If (False:C215)
 	  // ----------------------------------------------------
 End if 
 
-C_OBJECT:C1216($o)
-$o:=Math ()
+C_OBJECT:C1216($math)
+$math:=Math ()
 
 $test:=New AJ_Tools_UT_describe ("LOG2E";Current method name:C684;"Test Math properties")
 
@@ -29,6 +29,6 @@ $test:=New AJ_Tools_UT_describe ("LOG2E";Current method name:C684;"Test Math pro
 $test.given:="no argument"
 $test.should:="return 1.4426950408889634"
 $test.expected:=1.442695040889  // expected output: 1.4426950408889634
-$test.actual:=$o.LOG2E()
+$test.actual:=$math.LOG2E
 $test.assert()
 

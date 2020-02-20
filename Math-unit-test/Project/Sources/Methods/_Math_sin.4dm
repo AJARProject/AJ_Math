@@ -43,7 +43,7 @@ $test.actual:=$math.sin(2)*10  // expected output: 9.092974268256818
 $test.assert()
 
 $test.given:="expression ((Math.PI)* 10) as argument"
-$test.should:="return "+String:C10(Sin:C17($math.PI())*10)
-$test.expected:=Sin:C17($math.PI())*10
-$test.actual:=$math.sin($math.PI())*10  // expected output: 1.2246467991473533e-15
+$test.should:="return "+String:C10(Sin:C17($math.PI)*10)
+$test.expected:=Sin:C17($math.PI)*10
+$test.actual:=$math.sin($math.PI)*10  // expected output: 1.2246467991473533e-15
 $test.assert()

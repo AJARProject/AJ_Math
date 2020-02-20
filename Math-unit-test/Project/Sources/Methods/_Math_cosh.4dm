@@ -21,8 +21,8 @@ If (False:C215)
 	  // ----------------------------------------------------
 End if 
 
-C_OBJECT:C1216($o)
-$o:=Math ()
+C_OBJECT:C1216($math)
+$math:=Math ()
 
 $test:=New AJ_Tools_UT_describe ("cosh";Current method name:C684;"Test Math formula")
 
@@ -30,29 +30,29 @@ $test:=New AJ_Tools_UT_describe ("cosh";Current method name:C684;"Test Math form
 $test.given:="no argument"
 $test.should:="return 1"
 $test.expected:=1
-$test.actual:=$o.cosh()
+$test.actual:=$math.cosh()
 $test.assert()
 
 $test.given:="expression cosh(0) as argument"
 $test.should:="return "+String:C10((((Exp:C21(0))+Exp:C21(-0)))/2)
 $test.expected:=1
-$test.actual:=$o.cosh(0)  // expected output: 1 (approximately)
+$test.actual:=$math.cosh(0)  // expected output: 1 (approximately)
 $test.assert()
 
 $test.given:="expression cosh(1) as argument"
 $test.should:="return "+String:C10((((Exp:C21(1))+Exp:C21(-1)))/2)
 $test.expected:=1.543080634815
-$test.actual:=$o.cosh(1)  // expected output: 1.543080634815244 (approximately)
+$test.actual:=$math.cosh(1)  // expected output: 1.543080634815244 (approximately)
 $test.assert()
 
 $test.given:="expression cosh(-1) as argument"
 $test.should:="return "+String:C10((((Exp:C21(-1))+Exp:C21(1)))/2)
 $test.expected:=Num:C11(String:C10("1.543080634815244"))
-$test.actual:=$o.cosh(-1)  // expected output: 1.543080634815244 (approximately)
+$test.actual:=$math.cosh(-1)  // expected output: 1.543080634815244 (approximately)
 $test.assert()
 
 $test.given:="expression cosh(2) as argument"
 $test.should:="return "+String:C10((((Exp:C21(2))+Exp:C21(-2)))/2)
 $test.expected:=Num:C11(String:C10("3.7621956910836314"))
-$test.actual:=$o.cosh(2)  // expected output: 3.7621956910836314 (approximately)
+$test.actual:=$math.cosh(2)  // expected output: 3.7621956910836314 (approximately)
 $test.assert()

@@ -29,6 +29,6 @@ $test:=New AJ_Tools_UT_describe ("SQRT2";Current method name:C684;"Test Math pro
 $test.given:="no argument"
 $test.should:="return "+String:C10(Square root:C539(2))
 $test.expected:=Square root:C539(2)
-$test.actual:=$math.SQRT2()
+$test.actual:=$math.SQRT2
 $test.assert()
 

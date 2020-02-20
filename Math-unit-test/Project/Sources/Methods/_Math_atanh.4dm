@@ -20,8 +20,8 @@ If (False:C215)
 	  // ----------------------------------------------------
 End if 
 
-C_OBJECT:C1216($o)
-$o:=Math ()
+C_OBJECT:C1216($math)
+$math:=Math ()
 
 $test:=New AJ_Tools_UT_describe ("atanh";Current method name:C684;"Test Math formula")
 
@@ -29,29 +29,29 @@ $test:=New AJ_Tools_UT_describe ("atanh";Current method name:C684;"Test Math for
 $test.given:="no argument"
 $test.should:="return 0"
 $test.expected:=0
-$test.actual:=$o.atanh()
+$test.actual:=$math.atanh()
 $test.assert()
 
 $test.given:="expression atanh(1/2) as argument"
 $test.should:="return 0.549306144334055"
 $test.expected:=0.5493061443341
-$test.actual:=$o.atanh(1/2)  // expected output: 0.549306144334055 (approximately)
+$test.actual:=$math.atanh(1/2)  // expected output: 0.549306144334055 (approximately)
 $test.assert()
 
 $test.given:="expression (atanh(1*1) as argument"
 $test.should:="return "+String:C10(1/0)
 $test.expected:=String:C10(1/0)  //INF !!!
-$test.actual:=String:C10($o.atanh(1*1))  // 
+$test.actual:=String:C10($math.atanh(1*1))  // 
 $test.assert()
 
 $test.given:="expression (atanh(-1) as argument"
 $test.should:="return "+String:C10(-1/0)
 $test.expected:=String:C10(-1/0)  //-INF !!!
-$test.actual:=String:C10($o.atanh(-1))  // 
+$test.actual:=String:C10($math.atanh(-1))  // 
 $test.assert()
 
 $test.given:="expression atanh(0) as argument"
 $test.should:="return 0"
 $test.expected:=0
-$test.actual:=$o.atanh(0)  // expected output: 0
+$test.actual:=$math.atanh(0)  // expected output: 0
 $test.assert()

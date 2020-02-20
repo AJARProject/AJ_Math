@@ -21,8 +21,8 @@ If (False:C215)
 	  // ----------------------------------------------------
 End if 
 
-C_OBJECT:C1216($o)
-$o:=Math ()
+C_OBJECT:C1216($math)
+$math:=Math ()
 
 $test:=New AJ_Tools_UT_describe ("cos";Current method name:C684;"Test Math formula")
 
@@ -30,23 +30,23 @@ $test:=New AJ_Tools_UT_describe ("cos";Current method name:C684;"Test Math formu
 $test.given:="no argument"
 $test.should:="return 1"
 $test.expected:=1
-$test.actual:=$o.cos()
+$test.actual:=$math.cos()
 $test.assert()
 
 $test.given:="expression cos(1)*10 as argument"
 $test.should:="return "+String:C10(Cos:C18(1)*10)
 $test.expected:=Cos:C18(1)*10
-$test.actual:=$o.cos(1)*10  // expected output: 5.403023058681398
+$test.actual:=$math.cos(1)*10  // expected output: 5.403023058681398
 $test.assert()
 
 $test.given:="expression cos(2)*10 as argument"
 $test.should:="return "+String:C10(Cos:C18(2)*10)
 $test.expected:=Cos:C18(2)*10
-$test.actual:=$o.cos(2)*10  // expected output: -4.161468365471424
+$test.actual:=$math.cos(2)*10  // expected output: -4.161468365471424
 $test.assert()
 
 $test.given:="expression ((Math.PI)* 10) as argument"
-$test.should:="return "+String:C10(Cos:C18($o.PI())*10)
-$test.expected:=Cos:C18($o.PI())*10
-$test.actual:=$o.cos($o.PI())*10  // expected output: -10
+$test.should:="return "+String:C10(Cos:C18($math.PI)*10)
+$test.expected:=Cos:C18($math.PI)*10
+$test.actual:=$math.cos($math.PI)*10  // expected output: -10
 $test.assert()

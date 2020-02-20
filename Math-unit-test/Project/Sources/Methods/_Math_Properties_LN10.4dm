@@ -20,8 +20,8 @@ If (False:C215)
 	  // ----------------------------------------------------
 End if 
 
-C_OBJECT:C1216($o)
-$o:=Math ()
+C_OBJECT:C1216($math)
+$math:=Math ()
 
 $test:=New AJ_Tools_UT_describe ("LN10";Current method name:C684;"Test Math properties")
 
@@ -29,6 +29,6 @@ $test:=New AJ_Tools_UT_describe ("LN10";Current method name:C684;"Test Math prop
 $test.given:="no argument"
 $test.should:="return "+String:C10(Log:C22(10))
 $test.expected:=Log:C22(10)
-$test.actual:=$o.LN10()
+$test.actual:=$math.LN10
 $test.assert()
 
