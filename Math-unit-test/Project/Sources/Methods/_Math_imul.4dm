@@ -1,46 +1,36 @@
-//%attributes = {}
-  // Is it really needed ?
+//%attributes = {"shared":true}
+  // __UNIT_TEST
 
 
-C_REAL:C285($a;$b)
+  // _Math_imul
 
-C_LONGINT:C283($c)
-$a:=0x7FFFFFFF
-$b:=0x7FFFFFFF
-$c:=$a*$b  // result must be 1 !!!
-
-
-If ($a<0)
-	$aHi:=zero_fill_right_shift (($a >> 2))
-Else 
-	$aHi:=($a >> 16) & 0xFFFF
+If (False:C215)
+	  // ----------------------------------------------------
+	  // User name (OS): Maurice Inzirillo
+	  // Date and time: 22.02.20, 13:16:07
+	  // ----------------------------------------------------
+	  // Method: _Math_imul
+	  // Description
+	  // The Math.imul() function returns the result of the 
+	  // C-like 32-bit multiplication of the two parameters
+	  //
+	  // Parameters
+	  // ----------------------------------------------------
 End if 
-$aLo:=$a & 0xFFFF
 
-If ($b<0)
-	$bHi:=zero_fill_right_shift (($b >> 2))
-Else 
-	$bHi:=($b >> 16) & 0xFFFF
-End if 
-$bLo:=$b & 0xFFFF
+C_OBJECT:C1216($math)
+$math:=Math ()
+C_OBJECT:C1216($test)
+$test:=New AJ_Tools_UT_describe ("imul";Current method name:C684;"Test Math formula")
 
-  //---------------------------------------------------
-$str_test:=LongInt2BinaryString ($aHi)
-$aHi2:=$aHi >> 0
-$str_test2:=LongInt2BinaryString ($aHi2)
-  //---------------------------------------------------
-  //---------------------------------------------------
-$str_test:=LongInt2BinaryString ($aLo)
-$aLo2:=$aLo >> 0
-$str_test2:=LongInt2BinaryString ($aLo2)
-  //---------------------------------------------------
+$test.given:="multiply -MAXLONG with 125"
+$test.should:="return -2147483523"
+$test.expected:=-2147483523
+$test.actual:=$math.imul(MAXLONG:K35:2;-125)
+$test.assert()
 
-
-  // the shift by 0 fixes the sign on the high part
-  // the final |0 converts the unsigned value into a signed value
-  //$result:=(($aLo*$bLo)+(((($aHi*$bLo)+($aLo*$bHi) << 16) >> 0) | 0)
-$result:=($aLo*$bLo)+zero_fill_right_shift (($aHi*$bLo)+(($aLo*$bHi) << 16))
-$result:=$result | 0
-
-$str_result:=LongInt2BinaryString ($result)
-
+$test.given:="multiply 0x7FFFFFFF with 0x7FFFFFFF"
+$test.should:="return 1"
+$test.expected:=1
+$test.actual:=$math.imul(0x7FFFFFFF;0x7FFFFFFF)
+$test.assert()
