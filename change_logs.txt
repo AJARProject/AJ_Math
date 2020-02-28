@@ -3,9 +3,9 @@ Logs of the work done
 v1.1.2 - MI - 28.02.2020 :
 
 New formula :
-- spherodistance (latitude1;longitude1;latitude2;longitude2)
-- atan2(y;x)
-- asin(x)
 - acos(x)
+- asin(x)
+- atan2(y;x)
+- spherodistance (latitude1;longitude1;latitude2;longitude2)
 - toRadians(degrees)
 - toDegrees(radians)
