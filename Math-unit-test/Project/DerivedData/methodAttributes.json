@@ -1,5 +1,11 @@
 ﻿{
 	"methods": {
+		"_Math_toDegrees": {
+			"timeStamp": "2020-02-28T11:09:11.358Z",
+			"attributes": {
+				"shared": true
+			}
+		},
 		"_Math_log": {
 			"timeStamp": "2020-02-19T15:40:58.049Z",
 			"attributes": {
@@ -12,8 +18,20 @@
 				"shared": true
 			}
 		},
+		"_Math_atan2": {
+			"timeStamp": "2020-02-28T11:00:26.321Z",
+			"attributes": {
+				"shared": true
+			}
+		},
 		"_Math_sqrt": {
 			"timeStamp": "2020-02-19T15:42:08.293Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"_Math_spherodistance": {
+			"timeStamp": "2020-02-28T11:03:59.997Z",
 			"attributes": {
 				"shared": true
 			}
@@ -87,6 +105,12 @@
 				"shared": true
 			}
 		},
+		"_Math_acos": {
+			"timeStamp": "2020-02-28T10:55:32.513Z",
+			"attributes": {
+				"shared": true
+			}
+		},
 		"_Math_Properties_Radian": {
 			"timeStamp": "2020-02-20T15:11:34.548Z",
 			"attributes": {
@@ -95,6 +119,12 @@
 		},
 		"_Math_Properties_LOG2E": {
 			"timeStamp": "2020-02-20T15:07:35.057Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"_Math_asin": {
+			"timeStamp": "2020-02-28T10:56:56.311Z",
 			"attributes": {
 				"shared": true
 			}
@@ -137,6 +167,12 @@
 		},
 		"_Math_sign": {
 			"timeStamp": "2020-02-19T15:37:10.426Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"_Math_toRadians": {
+			"timeStamp": "2020-02-28T11:07:55.187Z",
 			"attributes": {
 				"shared": true
 			}
