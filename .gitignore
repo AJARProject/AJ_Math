@@ -9,6 +9,10 @@ LogStyleSheet.xsl
 **/DerivedData/**
 !**/DerivedData/*.json
 data.match
+<<<<<<< HEAD
+=======
+userPreferences.*
+>>>>>>> 1f93aa393b11be7a33b6beb39eb6b391c65663b8
 
 
 # 4D project architecture
@@ -43,4 +47,8 @@ Folder_Reports
 .Spotlight-V100
 .Trashes
 ehthumbs.db
+<<<<<<< HEAD
 Thumbs.db
+=======
+Thumbs.db
+>>>>>>> 1f93aa393b11be7a33b6beb39eb6b391c65663b8
