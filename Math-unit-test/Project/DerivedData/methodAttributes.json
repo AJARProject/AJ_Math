@@ -1,295 +1,301 @@
 ﻿{
 	"methods": {
 		"_Math_toDegrees": {
-			"timeStamp": "2020-02-28T11:09:11.358Z",
+			"timeStamp": "2020-03-04T16:39:35.752Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_log": {
-			"timeStamp": "2020-02-19T15:40:58.049Z",
+			"timeStamp": "2020-03-04T16:39:35.748Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_Properties_SQRT2": {
-			"timeStamp": "2020-02-20T15:09:44.186Z",
+			"timeStamp": "2020-03-04T16:39:35.744Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_atan2": {
-			"timeStamp": "2020-02-28T11:00:26.321Z",
+			"timeStamp": "2020-03-04T16:39:35.745Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_sqrt": {
-			"timeStamp": "2020-02-19T15:42:08.293Z",
+			"timeStamp": "2020-03-04T16:39:35.751Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_spherodistance": {
-			"timeStamp": "2020-02-28T11:03:59.997Z",
+			"timeStamp": "2020-03-04T16:39:35.751Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_clz32": {
-			"timeStamp": "2020-02-19T15:24:04.768Z",
+			"timeStamp": "2020-03-04T16:39:35.746Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"_Math_roundDecimal": {
+			"timeStamp": "2020-03-04T17:41:49.336Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_acosh": {
-			"timeStamp": "2020-02-19T15:41:47.938Z",
+			"timeStamp": "2020-03-04T16:39:35.744Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_tanh": {
-			"timeStamp": "2020-02-20T08:35:18.287Z",
+			"timeStamp": "2020-03-04T16:39:35.751Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_sinh": {
-			"timeStamp": "2020-02-19T15:25:56.098Z",
+			"timeStamp": "2020-03-04T16:39:35.750Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"Launch_UT": {
-			"timeStamp": "2020-02-11T09:21:40.744Z"
+			"timeStamp": "2020-03-04T16:39:35.742Z"
 		},
 		"_Math_Properties_E": {
-			"timeStamp": "2020-02-20T15:05:18.248Z",
+			"timeStamp": "2020-03-04T16:39:35.742Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_max": {
-			"timeStamp": "2020-02-19T11:20:08.275Z",
+			"timeStamp": "2020-03-04T16:39:35.749Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_exp": {
-			"timeStamp": "2020-02-19T15:36:25.702Z",
+			"timeStamp": "2020-03-04T16:39:35.747Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_tan": {
-			"timeStamp": "2020-02-20T10:28:12.995Z",
+			"timeStamp": "2020-03-04T16:39:35.751Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_floor": {
-			"timeStamp": "2020-02-20T10:30:32.738Z",
+			"timeStamp": "2020-03-04T16:39:35.747Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_hypot": {
-			"timeStamp": "2020-02-19T15:39:22.487Z",
+			"timeStamp": "2020-03-04T16:39:35.747Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_pow": {
-			"timeStamp": "2020-02-19T11:48:23.814Z",
+			"timeStamp": "2020-03-04T16:39:35.749Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_acos": {
-			"timeStamp": "2020-02-28T10:55:32.513Z",
+			"timeStamp": "2020-03-04T16:39:35.744Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_Properties_Radian": {
-			"timeStamp": "2020-02-20T15:11:34.548Z",
+			"timeStamp": "2020-03-04T16:39:35.743Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_Properties_LOG2E": {
-			"timeStamp": "2020-02-20T15:07:35.057Z",
+			"timeStamp": "2020-03-04T16:39:35.743Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_asin": {
-			"timeStamp": "2020-02-28T10:56:56.311Z",
+			"timeStamp": "2020-03-04T16:39:35.744Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_atan": {
-			"timeStamp": "2020-02-20T10:30:32.900Z",
+			"timeStamp": "2020-03-04T16:39:35.745Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_Properties_LOG10E": {
-			"timeStamp": "2020-02-20T15:07:13.978Z",
+			"timeStamp": "2020-03-04T16:39:35.743Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_Properties_PI": {
-			"timeStamp": "2020-02-20T15:08:12.192Z",
+			"timeStamp": "2020-03-04T16:39:35.743Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_abs": {
-			"timeStamp": "2020-02-19T15:40:26.840Z",
+			"timeStamp": "2020-03-04T16:39:35.744Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_log2": {
-			"timeStamp": "2020-02-20T10:30:32.695Z",
+			"timeStamp": "2020-03-04T16:39:35.748Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_cos": {
-			"timeStamp": "2020-02-20T10:30:32.781Z",
+			"timeStamp": "2020-03-04T16:39:35.746Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_sign": {
-			"timeStamp": "2020-02-19T15:37:10.426Z",
+			"timeStamp": "2020-03-04T16:39:35.750Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_toRadians": {
-			"timeStamp": "2020-02-28T11:07:55.187Z",
+			"timeStamp": "2020-03-04T16:39:35.752Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_round": {
-			"timeStamp": "2020-02-19T15:37:19.129Z",
+			"timeStamp": "2020-03-04T16:39:35.750Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_Properties_LN2": {
-			"timeStamp": "2020-02-20T15:06:45.865Z",
+			"timeStamp": "2020-03-04T16:39:35.742Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_sin": {
-			"timeStamp": "2020-02-20T10:23:09.130Z",
+			"timeStamp": "2020-03-04T16:39:35.750Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_Properties_LN10": {
-			"timeStamp": "2020-02-20T15:06:04.020Z",
+			"timeStamp": "2020-03-04T16:39:35.742Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_cbrt": {
-			"timeStamp": "2020-02-20T10:30:32.821Z",
+			"timeStamp": "2020-03-04T16:39:35.745Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_log10": {
-			"timeStamp": "2020-02-20T10:30:32.720Z",
+			"timeStamp": "2020-03-04T16:39:35.748Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_min": {
-			"timeStamp": "2020-02-19T11:36:37.422Z",
+			"timeStamp": "2020-03-04T16:39:35.749Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_random": {
-			"timeStamp": "2020-02-19T12:07:42.492Z",
+			"timeStamp": "2020-03-04T16:39:35.749Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_log1p": {
-			"timeStamp": "2020-02-19T15:38:19.627Z",
+			"timeStamp": "2020-03-04T16:39:35.748Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_Properties_Degree": {
-			"timeStamp": "2020-02-20T15:05:35.893Z",
+			"timeStamp": "2020-03-04T16:39:35.742Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"getClassName": {
-			"timeStamp": "2020-02-20T08:31:35.220Z"
+			"timeStamp": "2020-03-04T16:39:35.753Z"
 		},
 		"_Math_imul": {
-			"timeStamp": "2020-02-22T12:26:10.987Z",
+			"timeStamp": "2020-03-04T16:39:35.748Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_trunc": {
-			"timeStamp": "2020-02-19T15:42:55.114Z",
+			"timeStamp": "2020-03-04T16:39:35.752Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_Properties_SQRT1_2": {
-			"timeStamp": "2020-02-20T15:08:58.308Z",
+			"timeStamp": "2020-03-04T16:39:35.743Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_atanh": {
-			"timeStamp": "2020-02-20T10:30:32.843Z",
+			"timeStamp": "2020-03-04T16:39:35.745Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_asinh": {
-			"timeStamp": "2020-02-19T15:41:26.225Z",
+			"timeStamp": "2020-03-04T16:39:35.745Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_expm1": {
-			"timeStamp": "2020-02-19T15:39:57.224Z",
+			"timeStamp": "2020-03-04T16:39:35.747Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_cosh": {
-			"timeStamp": "2020-02-20T10:30:32.758Z",
+			"timeStamp": "2020-03-04T16:39:35.746Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Tool_Longint2BinaryString": {
-			"timeStamp": "2020-02-19T15:36:25.542Z",
+			"timeStamp": "2020-03-04T16:39:35.752Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"_Math_ceil": {
-			"timeStamp": "2020-02-20T10:30:32.802Z",
+			"timeStamp": "2020-03-04T16:39:35.746Z",
 			"attributes": {
 				"shared": true
 			}
