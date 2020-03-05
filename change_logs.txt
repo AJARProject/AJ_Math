@@ -9,3 +9,6 @@ New formula :
 - spherodistance (latitude1;longitude1;latitude2;longitude2)
 - toRadians(degrees)
 - toDegrees(radians)
+
+v1.2.0 - GI - 04.03.2020
+ - Add roundDecimal member function to the Math object
