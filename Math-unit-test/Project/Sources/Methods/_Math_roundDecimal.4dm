@@ -116,6 +116,18 @@ $test.expected:=-1.3
 $test.actual:=$math.roundDecimal(-1.25;0.1;"ROUND_HALF_UP")
 $test.assert()
 
+$test.given:="1.222, round half up with 0.1 precision"
+$test.should:="return 1.2"
+$test.expected:=1.2
+$test.actual:=$math.roundDecimal(1.222;0.1;"ROUND_HALF_UP")
+$test.assert()
+
+$test.given:="-1.222, round half up with 0.1 precision"
+$test.should:="return -1.2"
+$test.expected:=-1.2
+$test.actual:=$math.roundDecimal(-1.222;0.1;"ROUND_HALF_UP")
+$test.assert()
+
 $test.given:="1.25, round half down with 0.1 precision"
 $test.should:="return 1.2"
 $test.expected:=1.2
@@ -126,6 +138,18 @@ $test.given:="-1.25, round half down with 0.1 precision"
 $test.should:="return -1.2"
 $test.expected:=-1.2
 $test.actual:=$math.roundDecimal(-1.25;0.1;"ROUND_HALF_DOWN")
+$test.assert()
+
+$test.given:="1.222, round half down with 0.1 precision"
+$test.should:="return 1.2"
+$test.expected:=1.2
+$test.actual:=$math.roundDecimal(1.222;0.1;"ROUND_HALF_DOWN")
+$test.assert()
+
+$test.given:="-1.222, round half down with 0.1 precision"
+$test.should:="return -1.2"
+$test.expected:=-1.2
+$test.actual:=$math.roundDecimal(-1.222;0.1;"ROUND_HALF_DOWN")
 $test.assert()
 
 $test.given:="1.25, round half ceiling with 0.1 precision"
@@ -140,6 +164,18 @@ $test.expected:=-1.2
 $test.actual:=$math.roundDecimal(-1.25;0.1;"ROUND_HALF_CEILING")
 $test.assert()
 
+$test.given:="1.222, round half ceiling with 0.1 precision"
+$test.should:="return 1.2"
+$test.expected:=1.2
+$test.actual:=$math.roundDecimal(1.222;0.1;"ROUND_HALF_CEILING")
+$test.assert()
+
+$test.given:="-1.222, round half ceiling with 0.1 precision"
+$test.should:="return -1.2"
+$test.expected:=-1.2
+$test.actual:=$math.roundDecimal(-1.222;0.1;"ROUND_HALF_CEILING")
+$test.assert()
+
 $test.given:="1.25, round half floor with 0.1 precision"
 $test.should:="return 1.2"
 $test.expected:=1.2
@@ -150,6 +186,18 @@ $test.given:="-1.25, round half floor with 0.1 precision"
 $test.should:="return -1.3"
 $test.expected:=-1.3
 $test.actual:=$math.roundDecimal(-1.25;0.1;"ROUND_HALF_FLOOR")
+$test.assert()
+
+$test.given:="1.222, round half floor with 0.1 precision"
+$test.should:="return 1.2"
+$test.expected:=1.2
+$test.actual:=$math.roundDecimal(1.222;0.1;"ROUND_HALF_FLOOR")
+$test.assert()
+
+$test.given:="-1.222, round half floor with 0.1 precision"
+$test.should:="return -1.2"
+$test.expected:=-1.2
+$test.actual:=$math.roundDecimal(-1.222;0.1;"ROUND_HALF_FLOOR")
 $test.assert()
 
 $test.given:="1.25, round half even with 0.1 precision"
@@ -174,6 +222,18 @@ $test.given:="-1.15, round half even with 0.1 precision"
 $test.should:="return -1.2"
 $test.expected:=-1.2
 $test.actual:=$math.roundDecimal(-1.15;0.1;"ROUND_HALF_EVEN")
+$test.assert()
+
+$test.given:="1.222, round half even with 0.1 precision"
+$test.should:="return 1.2"
+$test.expected:=1.2
+$test.actual:=$math.roundDecimal(1.222;0.1;"ROUND_HALF_EVEN")
+$test.assert()
+
+$test.given:="-1.222, round half even with 0.1 precision"
+$test.should:="return -1.2"
+$test.expected:=-1.2
+$test.actual:=$math.roundDecimal(-1.222;0.1;"ROUND_HALF_EVEN")
 $test.assert()
 
 $test.given:="1.231257, round up with 0.125 precision"
