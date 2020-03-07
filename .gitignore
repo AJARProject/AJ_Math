@@ -7,7 +7,7 @@ Cache.xml
 Conversion*.json
 LogStyleSheet.xsl
 **/DerivedData/**
-!**/DerivedData/*.json
+!**/DerivedData/folders.json
 data.match
 userPreferences.*
 
