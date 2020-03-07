@@ -12,3 +12,6 @@ New formula :
 
 v1.2.0 - GI - 04.03.2020
  - Add roundDecimal member function to the Math object
+
+v1.2.1 - GI - 07.03.2020
+ - Rename Math to AJ_Math
