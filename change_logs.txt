@@ -15,3 +15,6 @@ v1.2.0 - GI - 04.03.2020
 
 v1.2.1 - GI - 07.03.2020
  - Rename Math to AJ_Math
+
+v1.2.2 - GI - 10.03.2020
+ - Fix the wrong dependence to AJ_Tools_UnitTest component
