@@ -19,5 +19,10 @@ v1.2.1 - GI - 07.03.2020
 v1.2.2 - GI - 10.03.2020
  - Fix the wrong dependence to AJ_Tools_UnitTest component
  
- v1.2.3 - MI - 11.03.2020
+v1.2.3 - MI - 11.03.2020
  - AJ_Math is now thread-safe
+
+v2.0.0 - GI - 12.05.2020
+ - Move to v18R3 and use publish AJ_Math as a class
+ - Refactor everyx method to be normalize, no parameters return NaN
+ - Accept only real parameters expect for min and max that accept collection
