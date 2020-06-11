@@ -10,4 +10,6 @@ This is a full port of the Math Javascript object.
 
 [wiki AJ_Math](https://github.com/AJARProject/AJ_Math/wiki)
 
-Minimal 4D Version : 18 R3
+Minimal 4D Version : 
+ - 18 (using formula member function)
+ - 18 R3 (using class)
