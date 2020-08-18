@@ -24,5 +24,9 @@ v1.2.3 - MI - 11.03.2020
 
 v2.0.0 - GI - 12.05.2020
  - Move to v18R3 and use publish AJ_Math as a class
- - Refactor everyx method to be normalize, no parameters return NaN
- - Accept only real parameters expect for min and max that accept collection
+ - Refactor every method to be normalized, no parameters will return NaN
+ - Accept only real parameters except for min and max that accept collection
+ 
+ v2.0.1 - MI 
+ - Move to v18R4 and use the new declaration syntax (var)
+ - Integrate the new version of AJ_Tools_UnitTest component compatible for v18R4
