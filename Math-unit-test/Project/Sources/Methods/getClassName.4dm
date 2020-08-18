@@ -21,3 +21,5 @@ End if
 C_OBJECT:C1216($1;$myClass)
 $myClass:=$1
 $name:=$myClass[""]
+
+$t:=AJ_Math_info 
