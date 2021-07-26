@@ -30,3 +30,6 @@ v2.0.0 - GI - 12.05.2020
  v2.0.1 - MI 
  - Move to v18R4 and use the new declaration syntax (var)
  - Integrate the new version of AJ_Tools_UnitTest component compatible for v18R4
+ 
+ v2.0.2 - MI 
+ - Move to v19 and compiled for Intel/AMD/Apple Silicon M1
