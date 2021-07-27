@@ -4,7 +4,7 @@ Math Functions for 4D
 
 The Math object is a single object that has some named properties and some member functions.
 
-This is a full port of the Math Javascript object.
+This is a full port of the Math Javascript object with some additional functions (see doc).
 
 ## Documentation
 
