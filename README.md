@@ -1,3 +1,12 @@
+![DEPRECATED](https://img.shields.io/badge/-DEPRECATED-red)
+
+## Source published
+This repository will not be used anymore. Please look at [AJ_Math_source](https://github.com/AJARProject/AJ_Math_source).
+
+---
+---
+---
+
 # AJ_Math
 
 Math Functions for 4D
